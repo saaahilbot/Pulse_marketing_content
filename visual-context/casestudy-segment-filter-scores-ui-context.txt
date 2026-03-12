@@ -1,0 +1,23 @@
+SOURCE: VantagePulse_CaseStudy_AccessOne_vFinal_2025.pdf — Page 4
+VISUAL TYPE: Product UI Screenshot (Segment Filter View)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Shows the Vantage Pulse department segmentation view filtering by "Department" with two category columns: "Relationship with Manager" and "Relationship with Peers."
+
+Sample department data:
+- Marketing: Relationship with Manager = 76, Relationship with Peers = 77 (teal — healthy)
+- Customer Success: Relationship with Manager = 68, Relationship with Peers = 20 (pink/red — critical alert)
+
+The "Relationship with Peers" score of 20 for Customer Success is the standout data point — a significant concern requiring immediate HR attention.
+
+---
+2. VISUAL VIBE
+
+Clean SaaS UI aesthetic. White/light grey background for the product screenshot, simple table layout, teal for healthy scores, pink for concerning scores. The filter controls at the top (dropdown selector "Department," category tabs) communicate ease-of-use and flexibility. The colour-coded cells do the analytical heavy lifting. The overall impression is of a well-designed enterprise tool: professional, functional, and fast to read.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+The Customer Success "Relationship with Peers: 20" score is a story-starter. In a real organisation, a score this low in a customer-facing team would have direct implications for service quality and retention. The product UI screenshot shows — without a single additional word — that Vantage Pulse can surface that kind of insight in seconds. The filter controls demonstrate that this level of granularity is self-serve, not a bespoke analytics request. For marketing, this screenshot works as product proof-of-concept in demos, on product pages, and in content marketing that speaks to HR analytics buyers who need to see before they believe.

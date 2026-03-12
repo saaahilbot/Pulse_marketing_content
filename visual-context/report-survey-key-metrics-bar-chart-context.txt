@@ -1,0 +1,23 @@
+SOURCE: PDF report (3) (1).pdf — Page 4
+VISUAL TYPE: Grouped Bar Chart (3 bars, single group)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Survey Overview – Key Metrics"
+A three-bar chart plotting the company's top-line survey results on a 0–100 scale:
+- Engagement Score: ~78 (dark grey bar)
+- e_NPS (Employee Net Promoter Score): ~60 (orange bar)
+- Participants Percentage: ~75% (light blue bar)
+
+All three metrics sit comfortably above the midpoint (50), signalling a healthy engagement baseline.
+
+---
+2. VISUAL VIBE
+
+Minimalist and clean. White background, light horizontal gridlines, no decorative elements. The three bars are colour-coded (grey, orange, blue) with a Vantage Circle logo strip running vertically along the right edge. Axis labels are sparse — just the Y-axis ticks and X-axis category names. No data labels on the bars themselves, which keeps the chart airy. The overall impression is a confident "boardroom-ready" chart: nothing flashy, all substance.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+The simplicity is the power move. Three bars, three numbers — HR leaders immediately understand the organisation's pulse without digging. The orange bar (eNPS) creates a natural visual contrast that draws the eye to the loyalty metric, which is the most emotionally resonant KPI. Pairing this chart with the executive summary stats slide creates a one-two punch: stats tell you the headline, this chart shows the shape of the data. Ideal for report covers, executive briefings, or as a "results at a glance" anchor in a longer deck.

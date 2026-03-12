@@ -1,0 +1,25 @@
+SOURCE: PDF report (3) (1).pdf — Page 7
+VISUAL TYPE: Grouped Bar Chart (10 engagement categories × 3 metrics)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Category – Key Metrics"
+Ten engagement categories measured across Engagement Score, Participants Percentage, and e_NPS:
+Alignment, Autonomy, Compensation and Benefits, Engagement, Personal Growth, Recognition, Relationship with Manager, Relationship with Peers, Wellness, Work Environment.
+
+Notable patterns:
+- Wellness scores the highest Engagement Score (~65) — employees rate their personal wellbeing well.
+- Compensation and Benefits has the lowest e_NPS (~21) — a clear pain point for the organisation.
+- Recognition and Personal Growth have notably low eNPS scores (~40–43), highlighting two high-priority areas for improvement.
+- Relationship with Peers and Relationship with Manager are mid-range, suggesting interpersonal dynamics are stable but not exceptional.
+
+---
+2. VISUAL VIBE
+
+Dense but disciplined. Same clean chart architecture as the other report visuals — white background, grey gridlines, tri-colour bars (grey/orange/blue). At 10 grouped clusters, this is a rich, analytical visual. Diagonal axis labels keep category names readable. This chart has a "research report" quality — authoritative and precise, clearly produced by a platform with rigorous data methodology.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This chart is a conversion engine in disguise. The moment a prospect sees "Compensation and Benefits: eNPS ~21" they understand the cost of not acting. Vantage Pulse doesn't just score engagement generically — it isolates the specific categories dragging scores down. For sales and marketing content, cherry-picking the sharpest contrasts from this chart (e.g., Wellness vs. Compensation) creates compelling before/after narratives. It's the professional rigour that gives the punchy claims ("know exactly what's broken") their teeth.

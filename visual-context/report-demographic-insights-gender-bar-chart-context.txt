@@ -1,0 +1,28 @@
+SOURCE: PDF report (3) (1).pdf — Page 5
+VISUAL TYPE: Grouped Bar Chart (3 groups × 3 metrics)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Demographic Insights by Gender"
+Three demographic groups (Female, Male, Undisclosed) each measured across three KPIs:
+- Engagement Score (dark grey bar)
+- Participants Percentage (orange bar)
+- e_NPS (light blue bar)
+
+Key findings visible in the chart:
+- Female employees: Engagement ~75, Participation ~81, eNPS ~57
+- Male employees: Engagement ~78, Participation ~74, eNPS ~60
+- Undisclosed: Engagement ~53, Participation ~29, eNPS ~0 (negligible)
+
+Female employees show the highest participation rate; male employees show the highest engagement score and eNPS. The undisclosed group is notably low across all metrics, likely reflecting a small subgroup.
+
+---
+2. VISUAL VIBE
+
+Data-heavy but structured. The same clean white-and-gridline treatment as the key metrics chart, with the three-colour legend kept consistent (grey/orange/blue). The grouped layout is easy to read left-to-right. The Vantage Circle vertical logo strip anchors the right side. Slightly denser than the overview chart due to 9 bars, but still uncluttered thanks to the consistent palette and generous bar spacing.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This chart says something important: engagement isn't monolithic. Breaking results down by gender immediately positions Vantage Pulse as a tool for nuanced, demographic-aware HR intelligence — not just a vanity metric machine. For marketing, this visual is powerful proof of depth. It shows prospects that the platform surfaces the *right* questions: "Are your female employees participating more but feeling less heard on eNPS?" This level of segmentation is the "punchy" differentiator that separates Vantage Pulse from basic survey tools.

@@ -1,0 +1,22 @@
+SOURCE: PDF report (3) (1).pdf — Page 3
+VISUAL TYPE: Key Metrics Stats Layout with Illustration
+
+---
+1. CORE DATA / STAT SHOWN
+
+This slide presents the Q4 Employee Engagement Survey Executive Summary with three headline KPIs:
+- Engagement Score: 78 (↑ up from 67 in the previous quarter)
+- Employee Net Promoter Score (eNPS): 61 (↑ up from 52 in the previous quarter)
+- Survey Participation Rate: 73% (↓ slightly down from 75% in the previous quarter)
+
+The layout pairs these bold, bulleted metrics against a monochrome illustration of a person celebrating at a desk, reinforcing positivity.
+
+---
+2. VISUAL VIBE
+
+Clean and confident. Two-column layout — data left, illustration right — on a white background with a dark navy footer bar bearing the Vantage Circle logo. Typography is a mix of bold metric labels (in dark navy) and italic data values. Colour accents: green arrows for increases, red for the slight decrease. The illustration is line-art style, keeping the page from feeling too clinical. Overall: data-forward but human-centred.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This visual nails the brand brief. The three KPIs are the punchy hook — big numbers, directional arrows, and clear QoQ context tell a story at a glance without requiring the reader to parse a chart. The upward movement in Engagement Score (+11 points) and eNPS (+9 points) gives the brand a measurable, credible proof point. The friendly illustration softens what could feel like a cold data dump, keeping the tone warm and accessible. Use this visual in decks, social posts, or one-pagers where you need to lead with hard evidence and land it fast.

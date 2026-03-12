@@ -1,0 +1,25 @@
+SOURCE: VantagePulse_Deck_EmployeeExpSimplified_v1.pdf — Page 7
+VISUAL TYPE: Parallel Feature Flow / Process Diagram (4 lanes)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Vantage Pulse Features Tailored to Fit Your Requirements"
+
+Four parallel horizontal flow lanes, each showing a value stream:
+1. Employee Engagement → Automated Pulse Surveys → Experience Cycle → Pre-built survey templates → Anonymous Feedback
+2. Workforce Trends → Question Score → Filters for comparison based on categories → Employee Analytics Dashboard
+3. Greater Insights → Pulse Survey Report → Engagement report → eNPS report
+4. Learning & Guidance → Suggested Improvements → Access to our Articles on Best HR Practices and Trends
+
+Total features shown: 16+ product capabilities across 4 parallel workflows.
+
+---
+2. VISUAL VIBE
+
+Systematic and comprehensive. Clean white background, orange rounded-rectangle "entry" nodes on the left for each lane, light-purple rounded rectangles for intermediate and terminal features, orange arrows connecting them left-to-right. The four-lane parallel layout creates a sense of scale and thoroughness — this is a platform with breadth. Font is light and modern. No icons, no images — pure information architecture.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This diagram answers the "but what does it actually do?" question with precision. The four parallel lanes communicate that Vantage Pulse operates on multiple levels simultaneously — engagement, analytics, reporting, and guidance — without requiring separate tools. The flow format implies ease: follow the arrows, get the output. For marketing, this diagram works well in "feature deep-dive" contexts: product pages, demo prep materials, and RFP responses. The professional grid structure signals enterprise readiness, while the clear left-to-right logic keeps it accessible. Its thoroughness is the punch — 16 capabilities in a single, scannable visual is genuinely impressive.

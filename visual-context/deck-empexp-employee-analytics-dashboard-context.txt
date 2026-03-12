@@ -1,0 +1,29 @@
+SOURCE: VantagePulse_Deck_EmployeeExpSimplified_v1.pdf — Page 10
+VISUAL TYPE: Product UI Screenshot (Analytics Dashboard)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Shows the Vantage Pulse Employee Analytics dashboard within a stylised laptop/device frame.
+
+Visible UI elements:
+- Engagement Score: 77 (large circular gauge)
+- eNPS Distribution chart (bar breakdown of Promoters/Passives/Detractors)
+- Engagement Score Timeline (line chart showing trend over time)
+- Navigation panels showing survey results by category
+
+The dashboard is shown on both a laptop screen and what appears to be a tablet, emphasising multi-device accessibility.
+
+Challenge context (left panel text): "Lack of Measurable Employee Insights" — positioning this dashboard as Solution 2: Employee Analytics.
+
+Handwritten-style annotation: "Get your employee pulse anywhere, anytime on whatever device you are."
+
+---
+2. VISUAL VIBE
+
+Product-forward and dynamic. Purple/blue gradient illustration background for the device frame, real product UI on screen. The handwritten annotation adds a personal, approachable touch to what is otherwise a technical product screenshot. The challenge/solution structure (left text panel + right product visual) is a classic consulting-deck format — problem stated, solution shown. The UI itself looks clean, data-rich but navigable — it telegraphs "powerful, not overwhelming."
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+Showing the actual product dashboard mid-deck is a confident move — it says "we're not hiding anything." The Engagement Score gauge (77) and the eNPS timeline are the metrics any HR leader wants to see first. The multi-device callout ("anywhere, anytime, whatever device") addresses the frontline worker use case without a separate slide. The handwritten annotation humanises the product screenshot, preventing the page from feeling like a spec sheet. For marketing, this visual is ideal for product pages, explainer videos, email nurture sequences, and any context where "show don't tell" is the strategy.

@@ -1,0 +1,25 @@
+SOURCE: PDF report (3) (1).pdf — Page 6
+VISUAL TYPE: Grouped Bar Chart (12 departments × 3 metrics)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Department Insights"
+Twelve departments plotted against Engagement Score, e_NPS, and Participants Percentage:
+App, Brand Sales, Corporate Sales, Design, Development, Finance, Human Resource, Marketing, Operations and Support, People & Culture, Quality Assurance, Research and Development.
+
+Notable observations:
+- Brand Sales has the highest Participants Percentage (~95%) — the top performer in engagement.
+- Human Resource stands out with the highest Participants Percentage (~91%) as well as a high eNPS.
+- Research and Development has the lowest Engagement Score (~67) and very low Participation (~20%), flagging a critical concern.
+- Engagement Scores are relatively compressed in the 65–87 range across most departments, indicating a generally engaged workforce with pockets of risk.
+
+---
+2. VISUAL VIBE
+
+Data-heavy. This is the densest chart in the report — 36 bars across 12 grouped clusters. The chart is still clean (white background, horizontal gridlines, consistent tri-colour scheme) but rewards close reading rather than at-a-glance skimming. The horizontal axis labels are rotated diagonally to fit all 12 department names. Professional and comprehensive — the kind of chart that belongs in a detailed analytical report, not a one-pager.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This is the "show your work" visual. Where headline stats build excitement, this chart builds credibility. It demonstrates that Vantage Pulse doesn't just give you an overall score — it pinpoints exactly where in the organisation the problems are. The R&D department's low participation and engagement is the kind of specific, actionable insight that turns a prospect into a buyer. For marketing, this visual is ideal for case study appendices, detailed demos, or content aimed at data-savvy CHROs who want proof the platform goes deep, not just wide.

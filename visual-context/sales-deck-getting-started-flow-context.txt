@@ -1,0 +1,25 @@
+SOURCE: vantage pulse sales deck 1.pdf — Page 11
+VISUAL TYPE: 3-Step Horizontal Flow with UI Screenshot
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Let's Build a Listening Culture That Lasts"
+Subtitle: "Book a Demo and See the Difference in 15 Minutes"
+
+A three-step onboarding/outcome journey connected by orange arrows:
+1. "Launch your first pulse in 'No Time'" — product screenshot (laptop + mobile device showing the Vantage Pulse dashboard)
+2. "Get your first heatmap + insights" — a heatmap screenshot showing a colour-coded grid of engagement scores by department/category
+3. "Start building a culture of continuous improvement" — photo of a team celebrating at a laptop
+
+The heatmap in step 2 shows a grid with teal/green scores for high-performing categories and pink/red scores flagging areas of concern.
+
+---
+2. VISUAL VIBE
+
+Optimistic and momentum-driven. Clean white background, three equal-width panels, orange directional arrows. The centre panel (heatmap) is the visual star — a real product screenshot that demonstrates immediate, tangible output. Product screenshots ground the flow in reality rather than abstraction. The final panel with the celebrating team photo delivers the emotional payoff. Balances product credibility (screenshots) with human aspiration (team photo). Light and airy despite packing three meaningful steps.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This visual removes the biggest sales objection — "but how long does this take?" — with three steps and one arresting heatmap. The heatmap is especially powerful: it transforms the abstract promise of "insights" into a concrete, colour-coded grid that prospects immediately understand. The "15 Minutes" hook in the subtitle is punchy and specific, lowering the barrier to booking a demo. Professionally, the use of real product UI (not mockups) signals confidence in the product. Use this as a closing slide in sales decks, landing page hero sections, or demo invitation emails.

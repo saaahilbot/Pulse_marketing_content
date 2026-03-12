@@ -1,0 +1,24 @@
+SOURCE: vantage pulse sales deck 1.pdf — Page 2
+VISUAL TYPE: Stepped Flow Diagram / Problem Infographic
+
+---
+1. CORE DATA / STAT SHOWN
+
+Headline stat (bottom right): Gallup estimates that actively disengaged employees cost the U.S. between $483 billion and $605 billion each year in lost productivity.
+
+The flow diagram illustrates a three-stage silent disengagement arc:
+1. "You've built programs. You've launched surveys." (foundation — clipboard icon)
+2. "But employees still leave without warning, quietly, and often, preventably." (warning — exit icon)
+3. "And when they go, so does productivity, morale, and momentum." (consequence — declining chart icon)
+
+Pull quote at bottom left: "You can't fix what you don't hear in time."
+
+---
+2. VISUAL VIBE
+
+Dramatic and editorial. Dark navy/charcoal background with white text and soft circle icons, creating a moody, high-contrast atmosphere. The three-stage stacked flow reads bottom-to-top, building tension. A greyscale photo of a woman carrying a box (leaving the office) occupies the right half, making the emotional stakes visceral. The Gallup citation at the bottom right adds hard credibility. This is storytelling-as-data — cinematic rather than clinical.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This is the brand voice at its sharpest. The $483–$605 billion Gallup stat is the kind of number that stops a prospect mid-scroll. The three-stage arc is punchy narrative structure — a mini problem-agitation-solution story told in three bullet points and a photo. The pull quote delivers a memorable, tweetable insight. Professionally, the Gallup attribution grounds the drama in credible third-party research. This visual works perfectly as an opening hook in a pitch deck, LinkedIn carousel, or webinar opener — maximum impact, minimum reading time.

@@ -1,0 +1,29 @@
+SOURCE: vantage pulse sales deck 1.pdf — Page 13
+VISUAL TYPE: Compliance Badges + Integration Logo Grid
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Enterprise-Grade Security & Integration"
+Subtitle: "Your Data is Protected and Your Data is Connected"
+
+Compliance certifications displayed: ISO 27001:2013, GDPR.EU, AICPA SOC, CCPA Compliant, HIPAA Compliant.
+
+Integration categories with logos:
+- Social Integrations: Microsoft Teams, Vantage (internal), Slack, Yammer, Zoom, Google Workspace
+- SSO Integrations: Azure AD, Okta
+- HRIS Integrations: BambooHR, Dayforce, Workday, Oracle HCM, SAP
+
+Total: 5 compliance certifications, 13+ platform integrations shown.
+
+Pull quote: "Compliant data. Connected workflows."
+
+---
+2. VISUAL VIBE
+
+Authoritative and reassuring. Clean white background, two-row panel layout. Compliance badges are rendered in their official brand colours (blue, teal, gold), lending third-party credibility. Integration logos are recognisable enterprise standards — the presence of Teams, Slack, SAP, and Workday signals serious enterprise-readiness. The layout is grid-structured and systematic, not flashy. The overall impression is: "We've done the homework so your IT and legal teams don't have to."
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+Security and integration slides are often afterthoughts — dense, boring, and buried. This one works because it leads with confidence rather than defensiveness. The headline "Enterprise-Grade" immediately speaks to the right buyer (procurement, IT, CHRO). The badge + logo grid format is instantly scannable. The pull quote is two punchy fragments — short, declarative, done. For marketing, this visual is essential for mid-to-late funnel content where procurement and IT stakeholders join the conversation. It also works well as a footer panel in brochures or a dedicated "Trust & Security" section on the website.

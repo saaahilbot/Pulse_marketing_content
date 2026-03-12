@@ -1,0 +1,31 @@
+SOURCE: VantagePulse_Deck_EmployeeExpSimplified_v1.pdf — Page 11
+VISUAL TYPE: Product UI Screenshot (Segments Heatmap)
+
+---
+1. CORE DATA / STAT SHOWN
+
+Shows the Vantage Pulse Segments feature — a heatmap-style table displaying engagement scores by geography (or other segmentation dimension) across three categories:
+- Relationship with Manager
+- Relationship with Peers
+- Recognition
+
+Sample data rows (cities):
+- United States: 76 / 77 / 95 — all teal/green (strong performance)
+- Pune: 68 / 20 / 66 — "Relationship with Peers" score of 20 highlighted in pink/red (critical alert)
+- Australia: 80 / 86 / 80 — all teal/green (strong)
+
+The colour coding uses a traffic-light logic: teal/green = healthy, pink/red = urgent action needed.
+
+Challenge context (left): "Disengagement and Retention" — positioning this as Solution 3: Segments.
+
+Handwritten-style annotation: "Check the spot that needs improvement."
+
+---
+2. VISUAL VIBE
+
+Precise and action-oriented. The heatmap table is compact and immediately readable — the pink cell (Pune / Relationship with Peers: 20) jumps out visually against the teal sea. This is data triage made visible: one look and you know exactly where to focus. The handwritten annotation reinforces the "actionable insight" ethos. Clean white background for the product UI, light purple for the left challenge panel. The contrast between the problematic pink score and healthy teal scores is the visual payoff.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+This screenshot is arguably the most compelling single product visual in the entire collateral library. The pink cell (score: 20) is a story in a single number — "Pune's peer relationships are broken, and you wouldn't know it without this." That specificity is the brand's entire value proposition made tangible. For marketing, this heatmap screenshot is a conversion-ready asset: it's the kind of visual that makes a prospect think "I need to know if I have a 20 somewhere in my organisation." Use it in ads, email sequences, website hero sections, and any content aimed at HR leaders who are data-motivated but time-poor.

@@ -1,0 +1,27 @@
+SOURCE: vantage pulse sales deck 1.pdf — Page 10
+VISUAL TYPE: 3-Column Competitive Comparison Table
+
+---
+1. CORE DATA / STAT SHOWN
+
+Title: "Why Vantage Pulse Wins Where Others Don't"
+Subtitle: "Other Tools Give You Dashboards. We Give You Decisions."
+
+Three-column layout comparing competitors vs. Vantage Pulse across 5 feature dimensions:
+- Real-time feedback: Others ✗ Delayed reports → Vantage Pulse ✓ Instant alerts & tracking
+- Sentiment heatmaps: Others ✗ Basic or none → Vantage Pulse ✓ AI-powered emotion mapping
+- Lifecycle insights: Others ✗ Manual tracking → Vantage Pulse ✓ Automated risk prediction
+- Frontline access: Others ✗ Limited → Vantage Pulse ✓ Kiosk + QR code ready
+- Actionable follow-through: Others ✗ Requires other tools → Vantage Pulse ✓ Integrated with Vantage Recognition, Perks & Fit
+
+Pull quote: "We're not just a survey tool. We're a better way to lead."
+
+---
+2. VISUAL VIBE
+
+Bold and confrontational — in the best way. Dark navy column headers with orange ✗ marks on the left (competitors) and orange checkmarks on the right (Vantage Pulse). The centre "Features" column acts as the neutral axis. The Vantage Pulse column uses the brand logo in the header, creating instant visual ownership. Light grey panel backgrounds, clean sans-serif type. The layout is crisp, scannable, and deliberately asymmetric — the right column (Vantage Pulse) has richer, more specific descriptions, signalling depth.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+Comparison tables are one of the highest-converting visual formats in B2B marketing — prospects love them because they do the evaluation work for you. This one is particularly well-executed: the ✗/✓ contrast is viscerally satisfying, the competitor descriptions are fair-but-damning ("Basic or none," "Requires other tools"), and the Vantage Pulse responses are specific and tech-forward ("AI-powered emotion mapping," "Automated risk prediction"). The pull quote lands the positioning with confidence, not arrogance. Use this in competitive battlecards, sales email sequences, and website comparison sections.

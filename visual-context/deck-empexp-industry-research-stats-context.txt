@@ -1,0 +1,26 @@
+SOURCE: VantagePulse_Deck_EmployeeExpSimplified_v1.pdf — Page 2
+VISUAL TYPE: Research Stats / Third-Party Citation Panel
+
+---
+1. CORE DATA / STAT SHOWN
+
+Three third-party research findings presented as citation cards:
+
+1. Forbes (Author Leigh Branham): "Lack of employee feedback is one of the biggest causes of performance problems and turnover."
+
+2. Salesforce: "Employees who feel their voice is heard at work are nearly five times more likely to feel empowered to perform their best work."
+
+3. IBM: "83% of surveyed employees said they would participate in an employee listening program."
+
+Context slide heading: "Want fewer employees to quit? Listen to them!"
+Gallup mention: "According to Gallup's report on the state of the global workplace in 2022, engagement at work was growing year on year. But it now is stagnating."
+
+---
+2. VISUAL VIBE
+
+Authoritative and research-forward. Split layout: left panel contains a Gallup summary paragraph + a product UI screenshot, right panel has three citation cards each bearing the source's logo (Forbes in bold red/black, Salesforce cloud-blue, IBM blue). The cards are clean white boxes with minimal styling, letting the logos carry the credibility weight. The overall feel is "analyst briefing" — grounded in data, peer-reviewed by brand-name research.
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+Third-party stats are the fastest way to establish credibility in a B2B pitch — and this slide hits Forbes, Salesforce, and IBM in a single breath. The "83%" IBM stat is particularly powerful because it's an employee-side proof point: people *want* to be listened to. The Salesforce "5x more likely to feel empowered" stat gives HR leaders a ready-made business case for leadership buy-in. The Gallup stagnation note adds urgency. For marketing, these three stats are quotable in almost any channel — social posts, email subject lines ("83% of your employees want to speak up"), and sales scripts. The combination makes Vantage Pulse feel like the solution the entire industry has been building towards.

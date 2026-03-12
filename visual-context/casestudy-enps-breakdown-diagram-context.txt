@@ -1,0 +1,23 @@
+SOURCE: VantagePulse_CaseStudy_AccessOne_vFinal_2025.pdf — Page 3
+VISUAL TYPE: eNPS Score Dial + Promoter/Passive/Detractor Breakdown
+
+---
+1. CORE DATA / STAT SHOWN
+
+AccessOne's employee NPS results measured via Vantage Pulse:
+- Central eNPS Score: 45 (shown in a circular dial/donut indicator)
+- Promoters: 58% (shown in teal/green with a happy face emoji)
+- Passives: 29% (shown in amber/yellow with a neutral face emoji)
+- Detractors: 13% (shown in red/pink with a sad face emoji)
+
+An eNPS of 45 is considered a strong score (industry average typically 10–30), indicating significantly more promoters than detractors.
+
+---
+2. VISUAL VIBE
+
+Data-meets-emotion. The three sentiment categories use colour-coded face emojis (happy/neutral/sad) that feel approachable and human, avoiding the sterility of traditional data viz. The large circular dial in the centre draws the eye first to the headline number (45), then the viewer naturally reads the percentage breakdown to the right. Dark navy background with white text creates high contrast and a premium feel. The layout is split: methodology text on the left, the visual metrics display on the right, with a thoughtful man's photo as a visual metaphor for the "thinking employee."
+
+---
+3. HOW THIS SUPPORTS "PROFESSIONAL YET PUNCHY" BRAND VOICE
+
+eNPS is a metric many HR leaders know but struggle to track. Showing a real client's score — 45, with 58% promoters — is a credibility bomb. The emoji faces are the "punchy" element: they humanise the data and make it immediately emotionally legible, which is rare in B2B analytics visuals. The dark premium aesthetic gives this the feel of a high-end consulting report rather than a free survey tool. Use this visual in case study content, award submissions, and any marketing that needs proof-of-ROI fast. The 58% promoter figure is especially quote-worthy.
