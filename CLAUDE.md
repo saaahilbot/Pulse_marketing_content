@@ -6,14 +6,79 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is the **Vantage Pulse marketing content repository**. It contains all brand collaterals, visual context descriptions, and blog reference material for Vantage Pulse — an employee engagement pulse survey SaaS platform by Vantage Circle.
+This workspace contains **two interconnected marketing knowledge bases** for Vantage Circle products.
 
-**Directory structure:**
+**Top-level (Vantage Pulse focus):**
 - `/collaterals/` — PDF sales decks, case studies, brochures, guides, and product documentation
 - `/visual-context/` — Plain-text descriptions of charts, UI screenshots, and infographics extracted from PDFs (use these to reference visual data without re-reading PDFs)
 - `/blogs/` — Blog catalog and URL list (`blog_catalog.md`, `blogs_url.txt`) covering 43 blog posts across 8 topic categories
 
-When working on any marketing task, read the relevant `/visual-context/` files first — they are the most efficient source of precise stats and product visuals.
+**`/vc-marketing/` — Full Vantage Circle product suite knowledge base** (separate git repo):
+- `/vc-marketing/specs/` — 47 verified feature specs across 4 products: Recognition & Rewards (18), Perks (9), Pulse (11), Platform & Admin (9)
+- `/vc-marketing/sources/VC-Marketing-Content-Compacted.md` — Distilled marketing reference with all approved proof points and case study data
+- `/vc-marketing/.claude/CLAUDE.md` — Product suite overview, personas, differentiators, proof points (auto-loaded when working inside `vc-marketing/`)
+- `/vc-marketing/.claude/rules/` — 8 rule files covering brand voice, content standards, SEO conventions, data accuracy, blog formatting (Ghost CMS), HR buyer lens, and change tracking
+- `/vc-marketing/FEATURE-INDEX.md` — Master index of all 47 specs with key marketing angles
+
+When working on any marketing task, read the relevant `/visual-context/` files first — they are the most efficient source of precise stats and product visuals. For full-suite Vantage Circle content (Recognition, Perks, Platform), open the `vc-marketing/` directory and work from the feature specs.
+
+---
+
+## Typst PDF Workflow
+
+Marketing articles and reports can be authored in Typst and compiled to PDF. Typst 0.14 is installed at `/opt/homebrew/bin/typst`.
+
+**Compile a `.typ` file to PDF:**
+```bash
+typst compile <file>.typ <output>.pdf
+```
+
+**Key patterns from existing Typst work (`survey_article.typ`):**
+- Full-bleed colored header bar: use `page(background: place(top + left, rect(width: 100%, height: Xcm, fill: color)))` — the `background` parameter paints at page coordinates before content
+- Header text over the bar: set `margin.top` equal to the bar height; the `header:` block sits inside the margin area, naturally overlaying the background rect
+- Two-column sections: `grid(columns: (1fr, 1fr), gutter: 1em, ...)` with `grid.cell(colspan: 2, ...)` for full-width rows within the grid
+- Page counter: must be wrapped — `#context counter(page).display(...)` not bare `#counter(page).display(...)`
+- Font fallback: `font: ("Helvetica Neue", "Arial")` — Inter is not installed system-wide
+
+**Brand colors for Vantage Pulse Typst docs:**
+- Navy header: `#0d2b4e`
+- Primary blue: `#1a4f8a`
+- Accent blue: `#2e7dd1`
+
+**Brand colors for full Vantage Circle (from brand book):**
+- Space Cadet (primary): `#29294C`
+- Pumpkin Orange (accent/CTA): `#FF6D05`
+- Ghost White (background): `#EEEEF6`
+- Typeface: Lato (Bold for headings, Regular for body)
+
+---
+
+## vc-marketing Skills (Claude Code Slash Commands)
+
+When working inside `vc-marketing/`, these skills are available:
+
+| Skill | Trigger | Purpose |
+|-------|---------|---------|
+| `/vc-blog-update` | `/vc-blog-update "URL" "keyword"` | SEO-optimize an existing VC English blog — produces optimization report + content writer outline saved to `output/reports/` |
+| `/vc-blog-translate` | `/vc-blog-translate "URL" "spanish\|french" ["keyword"]` | Translate a blog to Spanish or French with localized SEO, Ghost CMS formatting; saved to `output/translations/` |
+| `/vc-pdf` | `/vc-pdf` | Convert markdown/HTML/Word content to a branded Vantage Circle PDF using Typst — reports, case studies, one-pagers |
+
+Skills require MCP servers configured in `.mcp.json` inside `vc-marketing/`: Ahrefs, DataForSEO, Google Search Console, Google Analytics.
+
+---
+
+## vc-marketing Working Rules (Auto-Loaded)
+
+When generating content using the `vc-marketing/` knowledge base, these rules always apply:
+
+- **No em-dashes** (`—`) in blog content — split into two sentences instead
+- **Never fabricate stats** — all data must trace to `sources/VC-Marketing-Content-Compacted.md` or a feature spec Section 7.3. The live website (`vantagecircle.com`) is not an approved source.
+- **Brandon Hall Awards belong to client programs**, not to Vantage Circle directly — "Wipro's Winners' Circle program, powered by Vantage Circle, won Brandon Hall Gold 2023"
+- **Ghost CMS tables**: always use HTML `<table class="table table-bordered text-left star-rating-table">` wrapped in `<div class="table-responsive">` — never markdown pipe tables
+- **Ghost CMS images**: `<img src="..." alt="..." loading="lazy" />` — no fixed widths, no centering wrappers
+- **Every commit to `vc-marketing/` must add an entry to `vc-marketing/CHANGELOG.md`** (date, prompt, files changed) — see `vc-marketing/.claude/rules/change-tracking.md`
+- **Maximum 2–3 natural brand mentions per blog post**
+- **Competitor outbound links** get `rel="nofollow"`; `vantagefit.io` links are treated as internal (no nofollow, same tab)
 
 ---
 
