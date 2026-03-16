@@ -11,6 +11,8 @@ This workspace contains **two interconnected marketing knowledge bases** for Van
 **Top-level (Vantage Pulse focus):**
 - `/collaterals/` — PDF sales decks, case studies, brochures, guides, and product documentation
 - `/visual-context/` — Plain-text descriptions of charts, UI screenshots, and infographics extracted from PDFs (use these to reference visual data without re-reading PDFs)
+- `/Pulse Screenshots/` — **16 live product screenshots** of the actual Vantage Pulse UI (use these as the authoritative source for UI descriptions, feature copy, and product visuals in marketing content)
+- `VANTAGE_PULSE_FEATURE_LIST.md` — Comprehensive technical feature list generated from codebase analysis; authoritative reference for feature completeness and backend capabilities
 - `/blogs/` — Blog catalog and URL list (`blog_catalog.md`, `blogs_url.txt`) covering 43 blog posts across 8 topic categories
 
 **`/vc-marketing/` — Full Vantage Circle product suite knowledge base** (separate git repo):
@@ -20,7 +22,7 @@ This workspace contains **two interconnected marketing knowledge bases** for Van
 - `/vc-marketing/.claude/rules/` — 8 rule files covering brand voice, content standards, SEO conventions, data accuracy, blog formatting (Ghost CMS), HR buyer lens, and change tracking
 - `/vc-marketing/FEATURE-INDEX.md` — Master index of all 47 specs with key marketing angles
 
-When working on any marketing task, read the relevant `/visual-context/` files first — they are the most efficient source of precise stats and product visuals. For full-suite Vantage Circle content (Recognition, Perks, Platform), open the `vc-marketing/` directory and work from the feature specs.
+When working on any marketing task, check `/Pulse Screenshots/` first for live UI visuals — they are the most accurate representation of the current product. Then read the relevant `/visual-context/` files for precise stats and data points. For full-suite Vantage Circle content (Recognition, Perks, Platform), open the `vc-marketing/` directory and work from the feature specs.
 
 ---
 
@@ -139,20 +141,28 @@ When generating content using the `vc-marketing/` knowledge base, these rules al
 
 | Feature | What It Does |
 |---|---|
-| Automated Pulse Surveys | Scheduled, recurring, configurable-length surveys (5–23 min) with anonymous submission |
-| Employee Analytics Dashboard | Engagement Score (circular gauge), eNPS distribution, Engagement Score Timeline — multi-device |
-| Segments / Heatmap | Cross-tab engagement scores by geography, department, or any dimension — colour-coded critical alerts |
-| eNPS Tracking | Promoters / Passives / Detractors breakdown with trend over time |
-| Lifecycle Surveys | Automated risk prediction at key employee journey moments |
+| Automated Pulse Surveys | Scheduled, recurring, configurable-length surveys with anonymous submission; 3 creation paths: scratch, templates, or automated |
+| Employee Analytics Dashboard | Engagement Index (circular gauge, ↑/↓ vs prior), eNPS with Promoter/Passive/Detractor split, Participation Rate with benchmark alerts, Engagement Over Time multi-line chart |
+| Categories Overview | Bar chart of all engagement categories; colour-coded Strong (≥70%), Neutral (60–69%), Needs Attention (<60%); eNPS/Engagement toggle; rich category cards |
+| Segments / Heatmap | Cross-tab engagement + eNPS scores by department, country, BU, time; colour-coded red→green; response counts per cell |
+| Department-wise Insights | Table view: dept × eNPS distribution bar + Engagement Score + Participation %; Quick Summary sidebar with best/worst dept |
+| Comments & Sentiment Analysis | Per-comment sentiment (Positive/Neutral/Negative); AI-generated Overall Feedback Summary with key insights; filterable by dept, category, reply status |
+| Two-Way Anonymous Conversation | HR ↔ anonymous employee thread on any feedback item; **AI Assistant suggests empathetic response drafts (94% confidence)** with Copy / Use & Edit; employee reply is always sent anonymously |
+| AI Hub (Pro) | Dedicated premium AI features hub (nav item); AI-generated feedback summaries, response suggestions, highlights & recommendations |
+| eNPS Tracking | Promoters / Passives / Detractors breakdown with trend over time and benchmark comparison |
+| Lifecycle Surveys | Automated surveys triggered at onboarding days (7/15/30/45/60/90) and tenure years (1/2/3/5/7/10) |
 | PDF Reports | Exportable survey reports with full demographic and category breakdowns |
-| Question Library | Pre-built, validated question sets across 10 engagement categories |
-| Kiosk + QR Code Access | Frontline worker access — no app or email required |
-| Sentiment Heatmaps | AI-powered emotion mapping (vs. basic/none in competitors) |
-| Anonymous Feedback | Psychological safety layer to improve response honesty and participation |
+| Question Library | 35+ pre-built, validated questions across categories (Rating Scale 1–5, MCQ, open-ended); searchable; "Add Custom Question" inline |
+| Word Cloud | Per open-ended question; colour-coded; filterable by sentiment (Positive/Neutral/Negative) with comment counts |
+| Kiosk + QR Code Access | Toggle at survey creation ("For deskless employees"); frontline worker access — no app or email required |
+| Survey Attempt (Employee UX) | Clean card design; language selector; trust badges ("Your identity is protected", "No name or email tracking"); "Powered by Vantage Circle" |
+| Action Planning | Dedicated nav section for follow-through actions post-survey (full feature; appears in all HR nav views) |
 
-### The 10 Engagement Categories Measured
+### The 10+ Engagement Categories Measured
 
-Alignment · Autonomy · Compensation & Benefits · Engagement · Personal Growth · Recognition · Relationship with Manager · Relationship with Peers · Wellness · Work Environment
+Alignment · Autonomy · Compensation & Benefits · Engagement · Personal Growth · Recognition · Relationship with Manager · Relationship with Peers · Wellness · Work Environment · Social Connection · Leadership · Communication · Work-Life Balance
+
+*(Heatmap shows all categories as rows; categories visible in screenshots include Social Connection and Leadership in addition to the core 10. Custom categories can be added.)*
 
 ### The 3-Phase Engagement Pyramid (Methodology)
 
@@ -274,20 +284,119 @@ Three distinct audiences — messaging emphasis differs for each:
 
 ## Survey Templates (Pre-Built, with Time/Question Counts)
 
-| Template | Time | Questions |
-|---|---|---|
-| Employee Engagement | 5 min | 12 questions |
-| Employee Wellness | 11 min | 23 questions |
-| Back to Office | 8 min | 17 questions |
-| Custom | Variable | User-defined |
+Templates are browsable in a gallery view with Select / Preview per template. Filtered by category (e.g. "Employee Engagement"). All templates show question count and estimated completion time.
+
+| Template | Time | Questions | Notes |
+|---|---|---|---|
+| Human Centered Workplace | 12 min | 44 questions | Employee Engagement category |
+| Resilience | 12 min | 44 questions | Employee Engagement category |
+| Back to Office | 2 min | 4 questions | Lightweight pulse |
+| Mental Health | 12 min | 44 questions | Employee Engagement category |
+| Employee Mood | 12 min | 44 questions | Employee Engagement category |
+| Team Spirit | 12 min | 44 questions | Employee Engagement category |
+| Work Culture | 12 min | 44 questions | Employee Engagement category |
+| Recognition | 12 min | 44 questions | Employee Engagement category |
+| Psychosocial Health | 5 min | 8 questions | Wellness-focused |
+| Onboarding | 12 min | 44 questions | DOJ / lifecycle automation |
+| 5 Years Work Anniversary | 3 min | 12 questions | Tenure milestone automation |
+| Custom | Variable | User-defined | Start from scratch or mix questions |
 
 *Time estimates communicate respect for employees' time — always include them in copy that references surveys.*
+
+**Survey creation wizard (4 steps):** Get Started (name, description, enable QR/Kiosk toggle) → Select Questions (question bank + custom questions) → Configure (schedule, frequency, targeting) → Preview & Launch
+
+---
+
+## Platform UI Navigation Structure (Confirmed from Screenshots)
+
+The HR admin dashboard left nav contains these sections:
+
+```
+Overview
+Insights
+  ├── Categories
+  ├── Questions
+  ├── Comments
+  ├── Heat-map
+  └── Employee-Lifecycle
+Surveys
+  ├── Create
+  ├── Manage
+  ├── Question
+  └── Templates
+Action Planning
+Configuration
+Reports
+AI Hub  [Pro badge]
+```
+
+**"Create Survey" purple CTA button** is always pinned to the top of the left nav.
+
+---
+
+## Dashboard Data Points (from Live UI Screenshots)
+
+These are the exact numbers shown in the Q1 Engagement Survey 2025 demo environment — use for illustrative examples in content:
+
+**Overview Dashboard:**
+- Engagement Index: **65** (↑4 vs prior) — circular gauge, purple/blue gradient
+- eNPS: **67** (↑4 points), breakdown: Promoters 21% / Passives 34% / Detractors 45%, badge: "Favorable", note: "36 points below benchmark 100"
+- Participation Rate: **36%** (36 of 100 employees), badge: "Low Participation"
+- Top Performers: Work-Life Balance (+5 → 85), Leadership (+4 → 65), Communication (+1 → 52)
+- Needs Attention: Cybersecurity (−1 → 85), Leadership (−4 → 65), Communication (−1 → 65)
+- Engagement Over Time: multi-line chart (Jan–Jun) tracking Participation, Engagement, eNPS simultaneously
+
+**Heatmap (Q1 2025 demo):**
+- Total responses: 2.1K company-wide
+- Departments shown: Information Security, IT Compliance, Systems Administration, IT Infrastructure, Technical Support, User Experience, DevOps, Database Administration, Web Development, Artificial Intelligence, IT Operations, Data Science, Quality Assurance, Software Development
+- Example critical score: Engagement row → Technical Support dept = **04** (red)
+- Example healthy score: Work Environment → Database Administration = **98** (green)
+- Note shown in UI: "Multiple choice and comment-only questions are not shown in heatmap view"
+
+**Categories Overview (demo):**
+- Avg Engagement: 62%, Avg eNPS: 22, Avg Participation: 74%, Total Comments: 21
+- Best Performing Dept: Design | Needs Attention Dept: Product (R&R)
+- Scoring thresholds: Strong ≥70% (green), Neutral 60–69% (yellow), Needs Attention <60% (red)
+
+**Comments & Sentiment (demo — 1,827 responses):**
+- Positive Sentiment: **61%** (1,247 comments) | Neutral: **45%** (601 comments) | Negative: **26%** (31 comments)
+- AI summary example: "Analysis of 1,827 feedback responses reveals a predominantly positive workplace sentiment with focused areas for improvement."
+- AI key insights: Career development highly valued · Work-life balance concerns need immediate attention · Management communication improved · Compensation review requests increasing · Remote work flexibility is a key satisfaction driver
+
+**Department Breakdown (demo):**
+- Data Science: eNPS 53, Engagement 77, Participation 74% (160/200)
+- Cybersecurity: eNPS 33, Engagement 77, Participation 80% (160/200)
+
+---
+
+## AI Features in Detail (from Screenshots)
+
+### AI Hub (Pro Tier)
+A dedicated "AI Hub" nav item with Pro badge — the premium AI features hub. Contains all AI-powered capabilities in one place.
+
+### AI-Generated Overall Feedback Summary
+On the Comments & Sentiment Analysis page: one-click AI summary of all responses with labelled Key Insights bullet points. Shown as an expandable card ("Overall Feedback Summary ✦").
+
+### AI Assistant for HR Responses (Two-Way Anonymous Conversation)
+When HR opens any employee feedback item and enters a reply:
+- A right-side **AI Assistant panel** appears with 3 AI-drafted response options
+- Each draft is tagged "empathetic response" with a **94% confidence score**
+- HR can **Copy** or **Use & Edit** any draft — no need to write from scratch
+- The "AI Help" button is also available inline in the chat input
+- Employee reply footer confirms: "Your response will be sent anonymously"
+- This is a **major differentiator** — competitors don't offer AI-assisted HR reply drafting inside anonymous conversation threads
+
+### Word Cloud (per Open-Ended Question)
+- Generated per question from open-ended responses
+- Dominant words shown in larger text, colour-coded
+- "Filter by sentiment" section: All / Positive / Neutral / Negative with comment counts
+- Links to individual responses below
 
 ---
 
 ## Visual Asset Reference
 
-All visual context files are in `/visual-context/`. Key assets:
+All visual context files are in `/visual-context/`. For live product screenshots, use `/Pulse Screenshots/`. Key assets:
 
 | File | What It Shows | Best Use |
 |---|---|---|
@@ -305,6 +414,26 @@ All visual context files are in `/visual-context/`. Key assets:
 | `sales-deck-disengagement-cost-flow-context.txt` | Gallup $483B–$605B stat + cost-of-inaction arc | Top-of-funnel awareness content |
 
 **The single most powerful product visual:** `deck-empexp-segments-heatmap-ui-context.txt` — the Pune / Peers score of 20. It is conversion-ready for ads, emails, and hero sections. It makes prospects think: "I need to know if I have a 20 somewhere in my organisation."
+
+### Live Product Screenshots (`/Pulse Screenshots/`)
+
+| File | What It Shows | Best Use |
+|---|---|---|
+| `Engagement dashboard.png` | Full overview dashboard: Engagement Index 65, eNPS 67, Participation 36%, Top Performers, Needs Attention, Engagement Over Time chart | Product pages, demo decks, overview visuals |
+| `Heatmap.png` | Full heatmap: 2.1K responses, 15 departments, 9 categories, red→green colour coding, critical scores (04) and healthy (98) visible | Highest-impact product visual for ads and hero sections — shows the "where's my 04?" urgency |
+| `Sentiment trend graph.png` | Comments & Sentiment Analysis: 3 donut gauges (Positive 61%, Neutral 45%, Negative 26%), AI Overall Feedback Summary panel, filterable comment feed | AI capability showcase, sentiment analysis copy |
+| `Anonymous response interface.png` | Two-Way Anonymous Conversation + AI Assistant: empathetic response drafts at 94% confidence, Copy/Use & Edit, anonymity footer | **Most powerful AI differentiator screenshot** — use in competitive comparisons and AI feature copy |
+| `Survey creation dashboard.png` | Survey creation hub: 3 paths (scratch / templates / automated), recent templates with q-count and time | Product walkthrough, onboarding copy |
+| `Custom survey builder1.png` | Step 1 of 4-step wizard: survey name, description, QR/Kiosk toggle | Survey creation flow copy |
+| `Custom survey builder2.png` | Step 2: Question Bank (35q), category browse, add/remove, Selected Questions panel, real-time completion estimate | Feature depth copy, question library showcase |
+| `Template selection view.png` | Template gallery: Employee Engagement category with 8 templates (Human Centered Workplace, Resilience, Back to Office, Mental Health, etc.) | Template library copy, onboarding materials |
+| `Performance score breakdown.png` | Categories Overview: bar chart with Strong/Neutral/Needs Attention thresholds, Rich category analysis cards | Category analytics copy, "see all your categories at a glance" messaging |
+| `Department-wise insights.png` | Department breakdown table: eNPS distribution bar, Engagement Score, Participation %; Quick Summary sidebar | Manager/HR buyer copy, department-level analysis |
+| `Word-Cloud.png` | Per-question word cloud for open-ended responses; Filter by sentiment section below | Open-ended analytics copy, AI insights showcase |
+| `Survey attempt page.png` | Employee survey landing (desktop): trust badges, language selector, "Quick Pulse Check" 8q/2min | Employee UX copy, anonymity messaging |
+| `Survey attempt page-mobile.png` | Same as above, mobile responsive layout | Mobile-first copy, responsive design proof point |
+| `Participation tracking.png` | Same as Engagement dashboard (duplicate) | — |
+| `Question builder interface1.png` | Same as Custom survey builder step 2 (duplicate) | — |
 
 ---
 
@@ -335,8 +464,12 @@ Axonics · AcceleratON · BGIS · YNV Group · Lighthouse
 
 1. **Verify stats before publishing** — always trace back to the source visual-context file or PDF collateral listed above.
 2. **The Pune/Customer Success "score: 20" example is your most powerful proof point** — use it when prospects need to feel urgency.
-3. **Respect survey time estimates** — always mention that pulse surveys are short (5–11 min). HR leaders' biggest objection is "employees won't bother."
+3. **Respect survey time estimates** — always mention that pulse surveys are short (2–12 min depending on template). HR leaders' biggest objection is "employees won't bother."
 4. **Never claim capabilities not in this document** — the product does many things but the above is the verified feature set.
 5. **AccessOne is the go-to case study** — Cassidi Ross quote is approved. 67% participation and eNPS 45 are the hero metrics.
 6. **The integration list is a trust signal for enterprise buyers** — include it in any content aimed at IT decision-makers or enterprise HR.
 7. **Compliance badges matter at evaluation stage** — include GDPR/ISO/SOC 2 in any content addressing data-security objections.
+8. **The AI Assistant for HR replies is the #1 AI differentiator** — the `Anonymous response interface.png` screenshot shows this explicitly. No competitor offers AI-drafted empathetic responses inside anonymous conversation threads. Lead with this in any AI-focused content.
+9. **"Two-Way Anonymous Conversation" is the correct feature name** — not just "anonymous feedback." The conversation thread is two-way; the AI Assistant assists HR; identity is always protected.
+10. **AI Hub is a Pro-tier feature** — position it as part of the premium offering; don't imply it's available on all plans unless confirmed.
+11. **Use live screenshot data for UI descriptions** — the `/Pulse Screenshots/` folder contains the authoritative current UI. Prefer these over older PDF-based visual context files when describing the product interface.
