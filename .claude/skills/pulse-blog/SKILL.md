@@ -57,7 +57,19 @@ Extract from the topic:
 
 ---
 
-## Step 2 — Build the Outline
+## Step 2 — SERP Research (Before Outlining)
+
+Search the top 5–8 ranking pages for the target keyword. Identify:
+- Common headings and angles they use
+- Gaps or weak points in their coverage
+- Stats or studies they cite
+- Word count and structure patterns
+
+Use this to build a stronger, more differentiated outline.
+
+---
+
+## Step 3 — Build the Outline
 
 Plan the structure before writing. Present the outline to the user and confirm before drafting the full post.
 
@@ -84,7 +96,7 @@ CTA: "Book a Demo" or "See How It Works"
 
 ---
 
-## Step 3 — Write the Blog Post
+## Step 4 — Write the Blog Post
 
 ### Voice Rules (Non-Negotiable)
 
@@ -94,6 +106,9 @@ CTA: "Book a Demo" or "See How It Works"
 - No corporate jargon: synergy, leverage, best-in-class, revolutionize, gamification
 - Maximum 2-3 natural Vantage Pulse brand mentions
 - Every stat must trace to an approved source in CLAUDE.md
+- One central theme per post — do not drift or repeat the same point in different words
+- Deliver a strong, original, or provocative viewpoint where relevant
+- Only include stats when they directly support the claim and add reader value — do not stack stats for the sake of it
 
 ### Length
 
@@ -125,7 +140,7 @@ Image placeholder format (user replaces with hosted URL):
 <img src="[PULSE_SCREENSHOT: filename.png]" alt="Vantage Pulse [feature description]" loading="lazy" />
 ```
 
-Place image **after the H2 heading** or after the first 1-2 context sentences — never at the end of a section.
+Place image **after the H2 heading** or after the first 1-2 context sentences — never at the end of a section. Do not cluster screenshots together or over-use them.
 
 ### Ghost CMS Formatting
 
@@ -146,20 +161,38 @@ Place image **after the H2 heading** or after the first 1-2 context sentences �
 
 ---
 
-## Step 4 — SEO Metadata
+## Step 5 — SEO & Linking Rules
 
-Write:
+### SEO Metadata
+
 - **Title tag:** `[Primary Keyword] — [Benefit Qualifier] | Vantage Pulse` (50-60 chars)
 - **Meta description:** 140-155 chars — keyword + proof point + soft CTA
 - **Slug:** `/blog/[hyphenated-primary-keyword]/`
 - **Focus keyword:** primary keyword
 - **Secondary keywords:** 2-3 LSI terms used naturally in the body
 
+### Internal Links
+
+Interlink to relevant Pulse blog posts throughout the article where contextually appropriate.
+
+Format: `<a href="/blog/relevant-slug" target="_blank">anchor text</a>`
+
+### External Links
+
+Link to high-authority sources: scientific studies, government/institutional data, reputable research orgs (e.g. Gallup, SHRM, Harvard, PubMed, McKinsey).
+
+**NEVER link to competitor sites:** CultureMonkey, CultureAmp, Qualtrics, Lattice, or similar.
+
+Format: `<a href="https://source.com" target="_blank">anchor text</a>`
+
+Only link when the source directly supports a claim — do not add links just to have them.
+
+All links must use `target="_blank"`.
+
 ---
 
-## Step 5 — Output
+## Step 6 — Output Order
 
-Deliver in this order:
 1. **SEO block** — title tag, meta description, slug, focus keyword, secondary keywords
 2. **Full blog post** — Ghost-ready markdown with HTML blocks for tables and images
 3. **Screenshot placement notes** — list each `[PULSE_SCREENSHOT: filename.png]` with recommended alt text and hosted-URL swap instruction
@@ -189,19 +222,52 @@ Deliver in this order:
 
 ---
 
-## Quality Checklist
+## DISALLOWED Terms and Phrases
+
+Never use any of the following under any circumstance:
+
+They aren't just / They don't just / It isn't / The real shift /
+This is about / This isn't / it's not / Em-dashes (—) / "fluff" /
+"Here's the kicker." / "void" / "It's not about X. It's about Y." /
+"Here's the truth" / "Let's be honest" / "deep dive" / "Join us" /
+"embark" / "tapestry" / "operational efficiency" / "Let me explain" /
+"Honestly?" / "beacon" / "furthermore" / "nevertheless" / "nonetheless" /
+"notwithstanding" / "transformation" / "transformative" / "revolutionize" /
+"embrace" / "illuminate" / "crickets" / "here's the thing" / "authentic" /
+"vanity metrics" / "pitch-slapped" / "through the noise" / "superpower(s)" /
+"strike gold" / "secret weapon/arsenal" / "harness" / "thrive" /
+"skyrocket" / "soar" / "game-changer" / "forget" / "evolve" / "unlock" /
+"unleash" / "elevate" / "Delve"
+
+---
+
+## Additional Content Rules (CRITICAL)
+
+- **STRICTLY NO rhetorical contrasts:** "This isn't X, it's Y" or any similar structure
+- **ABSOLUTELY NO rhetorical questions** or provocative leading questions
+- **NO redundancy** — do not say the same thing twice in different words
+- **ONE central theme per post** — stay focused throughout
+
+---
+
+## Quality Checklist (16 items)
 
 - [ ] CLAUDE.md read before writing
+- [ ] SERP research done before outlining
+- [ ] No disallowed terms
+- [ ] No rhetorical contrasts
+- [ ] No rhetorical questions
+- [ ] No redundancy — one central theme
 - [ ] Every stat traced to an approved source
-- [ ] No em-dashes — two sentences instead
 - [ ] Written for HR buyer (CHRO, HR Director), not employees
 - [ ] Feature names match exact in-product UI labels
 - [ ] Maximum 2-3 brand mentions
 - [ ] Tables use HTML — not markdown pipes
-- [ ] Images use placeholder format with "Vantage Pulse" in alt text
-- [ ] Images placed at section start or midpoint — never at the end
+- [ ] Screenshots used naturally (non-salesy) — not clustered
 - [ ] 1,500–2,500 words
 - [ ] SEO metadata block included
 - [ ] CTA at end of post
 - [ ] AccessOne quote attributed correctly (Cassidi Ross, HR Coordinator, AccessOne)
+- [ ] All links use `target="_blank"`
+- [ ] No competitor links
 - [ ] No "gamification" language — that's Vantage Fit, not Pulse
