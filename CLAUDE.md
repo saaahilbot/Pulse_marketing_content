@@ -65,6 +65,7 @@ When working inside `/Users/sahil/Desktop/marketing/`, these Pulse-specific skil
 | `/pulse-landing-page` | `/pulse-landing-page "keyword or angle"` | Write full conversion-optimised landing page copy — hero, social proof, features, case study, integrations, compliance, CTA |
 | `/pulse-email` | `/pulse-email "angle" [persona]` | Write a 3-email outbound sequence (Awareness → Nurture → Conversion) targeting HR leaders; persona options: chro, hr-director, hr-bp |
 | `/pulse-linkedin` | `/pulse-linkedin "angle" [post_type]` | Write a single LinkedIn post; post types: data, feature, story, thought-leadership |
+| `/doc-update` | `/doc-update "task" [file=path] [brand=pulse\|vc]` | Create or update a branded Vantage Circle / Vantage Pulse PDF collateral in Typst — encodes the exact visual system, component library, and methodology from `automated-lifecycle-surveys.typ` |
 
 Skills live in `.claude/skills/` at this directory level. Each skill reads from `CLAUDE.md`, `VANTAGE_PULSE_FEATURE_LIST.md`, and `Pulse Screenshots/` — load these before generating content.
 

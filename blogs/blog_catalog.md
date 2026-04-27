@@ -15,6 +15,7 @@ Categorized reference of all blog URLs from `blogs_url.txt`.
 | Anonymous Employee Survey | https://www.vantagecircle.com/en/blog/anonymous-employee-survey/ |
 | Employee Survey Participation Rates | https://www.vantagecircle.com/en/blog/employee-survey-participation-rates/ |
 | Survey Fatigue | https://www.vantagecircle.com/en/blog/survey-fatigue/ |
+| Survey Incentive Ideas | https://www.vantagecircle.com/en/blog/survey-incentives/ |
 | The Right Time to Run an Employee Survey | https://www.vantagecircle.com/en/blog/the-right-time-to-run-employee-survey/ |
 | Catchy Employee Engagement Survey Names | https://www.vantagecircle.com/en/blog/catchy-employee-engagement-survey-names/ |
 | Employee Survey (Overview) | https://www.vantagecircle.com/en/blog/employee-survey/ |
@@ -28,6 +29,7 @@ Categorized reference of all blog URLs from `blogs_url.txt`.
 |---|---|
 | How to Communicate Survey Results Without Losing Employee Trust | https://www.vantagecircle.com/en/blog/how-to-communicate-employee-survey-results-to-employees-without-losing-their-trust/ |
 | Employee Survey Dashboard | https://www.vantagecircle.com/en/blog/employee-survey-dashboard/ |
+| Steps After a Poor Employee Survey Result | https://www.vantagecircle.com/en/blog/poor-employee-survey-result/ |
 | Employee Engagement Survey Analysis | https://www.vantagecircle.com/en/blog/employee-engagement-survey-analysis/ |
 
 ---
@@ -64,6 +66,8 @@ Categorized reference of all blog URLs from `blogs_url.txt`.
 | Pulse Surveys (Overview) | https://www.vantagecircle.com/en/blog/pulse-surveys/ |
 | Top Employee Pulse Survey Tools | https://www.vantagecircle.com/en/blog/top-employee-pulse-survey-tools/ |
 | Employee Survey Tools | https://www.vantagecircle.com/en/blog/employee-survey-tools/ |
+| Kiosk Surveys | https://www.vantagecircle.com/en/blog/kiosk-survey/ |
+| Product Launch: Introducing Vantage Pulse | https://www.vantagecircle.com/en/blog/product-launch-alert-introducing-vantagepulse/ |
 
 ---
 
@@ -78,7 +82,7 @@ Categorized reference of all blog URLs from `blogs_url.txt`.
 | Employee Morale Survey | https://www.vantagecircle.com/en/blog/employee-morale-survey/ |
 | Employee Sentiment | https://www.vantagecircle.com/en/blog/employee-sentiment/ |
 | Employee Satisfaction Survey | https://www.vantagecircle.com/en/blog/employee-satisfaction-survey/ |
-| Employee Net Promoter Score (eNPS) | http://vantagecircle.com/en/blog/employee-net-promoter-score-enps/ |
+| Employee Net Promoter Score (eNPS) | https://www.vantagecircle.com/en/blog/employee-net-promoter-score-enps/ |
 
 ---
 

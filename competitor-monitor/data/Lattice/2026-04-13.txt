@@ -1,0 +1,136 @@
+# Snapshot: Lattice — 2026-04-13
+
+## FEATURE CLAIMS
+- Lattiverse 2026 — People + AI: A New Way to Work
+- Understand sentiment to drive engagement and results
+- Capture employee feedback, surface AI-powered insights and recommendations, and improve retention.
+- Pulse
+- Onboarding & Exit
+- eNPS
+- AI Analysis
+- Continuously understand how employees feel with real-time pulse surveys.
+- Benchmark engagement across similar industries, regions, and company sizes.
+- Use AI to surface key drivers, trends, and next steps from survey results in a matter of seconds, saving HR teams hours of work.
+- Connect employee sentiment to how you manage and grow your people.
+- Manage and uplevel performance with AI-powered talent tools that drive results and long-term growth.
+- AI Agent
+- An AI agent for HR goes beyond a chatbot: it acts on your data, answers your team's questions, and coaches managers in the flow of work.
+- Connect goals to how you manage, grow, and reward your people.
+- Weave saves 30 hours per engagement survey
+- We wanted to create the most efficient and effective system for growth and feedback. Lattice helps us remove unnecessary feedback burdens while making sure managers engage in meaningful conversations that drive impact.
+- Having Lattice integrate with Workday gave us the best of both worlds. Workday as our system of record, and Lattice as the tool that powers performance, goals, and manager effectiveness.
+- Export engagement survey data in a column-based format with one row per employee for easier, analysis-ready reporting.
+- We're deprecating the fullscreen modal patterns for the end-user and manager views in Engagement. These pages will now behave like all other standard pages.
+- Sticky First Row in Heatmap View
+- The top row in the Heatmap now remains fixed during scrolling, allowing users to maintain context while navigating data.
+- Read these before your next engagement survey
+- Want a more engaged, motivated workforce? Browse our free guides, survey templates, and research to measure engagement, uncover trends, and take real action.
+- How to Turn Engagement Survey Results Into Action
+- Learn how to analyze your engagement survey results, present findings to leadership, and formulate a response with managers.
+- template
+- Employee Engagement Survey Template
+- For HR teams and company leadership, employee engagement might be the ultimate barometer for success.
+- Employee engagement software helps organizations measure and improve workplace satisfaction, morale, and commitment. It enables HR teams to collect feedback, analyze sentiment, and act on insights to create a more engaged and productive workforce.
+- How does Lattice’s employee engagement software empower HR teams?
+- Lattice's platform empowers HR teams by offering a centralized system for engagement, performance management, feedback, and continuous improvement. Features like real-time analytics and personalized insights enable HR professionals to proactively address employee needs and enhance overall workplace satisfaction.
+- Lattice supports pulse surveys, eNPS, onboarding, offboarding, and exit surveys. HR teams can also create custom surveys to address specific needs, such as retention analysis or post-event feedback​​.
+- How does Lattice help organizations analyze engagement survey results?
+- Lattice provides advanced analytics tools, including heatmaps, sentiment tracking, and trend comparisons. These insights allow organizations to filter results by demographics, departments, or custom fields to pinpoint engagement gaps​​.
+- How does Lattice handle action planning post-survey?
+- of articles, templates, and webinars to assist organizations in developing and executing effective engagement strategies. These resources cover topics such as building a feedback culture, conducting performance reviews, and improving company culture.
+- How does Lattice use sentiment analysis with employee engagement data?
+- Sentiment analysis in Lattice interprets employee survey comments to identify positive, neutral, and negative trends. This feature helps HR teams prioritize areas of concern and take proactive action​​.
+- Lattice enables organizations to filter engagement data by diversity metrics, helping HR teams assess how inclusive and equitable their workplace is. This supports the creation of actionable DEIB strategies​​.
+- Lattice's employee engagement solutions include pulse surveys, onboarding and exit surveys, eNPS measurement, and engagement benchmarking powered by Mercer data. AI-powered analysis surfaces key drivers and recommended actions from survey results, helping HR teams understand not just what employees feel but why, and what to do about it.
+
+## PRICING SIGNALS
+- Request a demo
+- I underestimated just how valuable our investment in Lattice would prove to be...as a small business we’ve set a gold standard for what individual and collective people success looks like.
+- VP of People & Business Operations
+- This wasn’t just a system switch, it was a shift in how the business operates and grows through its people.
+- After conducting engagement surveys, Lattice enables managers to create action plans based on the feedback received. The platform offers suggested actions grouped by themes to guide managers in addressing specific areas of concern.
+- Your people are your business
+
+## OTHER COPY
+- Register now
+- Skip to content
+- Log in
+- Platform
+- Engagement
+- Take a product tour
+- Employee engagement
+- Measure engagement, identify key drivers, and act where it matters most with confidence.
+- Surveys & Benchmarks
+- Learn more
+- Capture insights at key moments to reduce attrition and improve retention.
+- Gauge employee advocacy with one-question Employee Net Promoter Score®.
+- Talent Suite
+- Bring engagement into everyday work
+- Performance
+- Compensation
+- Manage compensation with the data and context leaders need for structured, fair pay decisions.
+- Goals & OKRs
+- Customer stories
+- Trusted by top performers
+- Alan Cairns
+- Chief People Officer
+- GoCardless
+- Lattice is better than its competitors. It feels like it was made for us. Everything is rooted in building a high-performance culture and raising the bar year-on-year
+- 100%
+- GoCardless boosted its review participation rate from 62% to 100%.
+- Read the story
+- Mike “Brute” Brutinel
+- Head of People Operations
+- Weave
+- Lattice listens to us, a lot. And then our suggestions either end up on the roadmap, or they’re taken very seriously as something that will be worked on. It’s not a stale platform, which is really nice.
+- JD Slaughter
+- Group Vice President, Organizational Development & Effectiveness
+- Huge
+- 2,000
+- Huge saved 2,000 hours by eliminating inefficient annual, peer review cycles.
+- Christina Donnelly
+- Chief People Officer & General Counsel
+- Bark
+- We’ve come a long way, and Lattice made that possible. Not by changing who we are, but by helping us do what we already value, better.
+- 800+
+- active goals, with 100% employee adoption
+- Jennifer Robertson
+- AVP, Human Resources & Talent Management
+- Vantage West Credit Union
+- What I liked about Lattice was that the goal-setting was just really, really good, and easy for our managers to do.
+- VantageWest reduced attrition by 27%.
+- Steven Pham
+- Senior Talent Enablement Partner
+- LiveRamp
+- 3.5x
+- Higher check-in cycle completion rate than in WorkDay.
+- Guy Novik
+- USAirtours
+- USAirtours increased sales by 20%.
+- Dominique Bauersfeld
+- UNREAL Snacks
+- 100% of managers completed reviews on time
+- Changelog
+- Explore recent Engagement updates
+- Engagement Raw Export (Questions → Columns)
+- Engagement UI/UX Updates
+- Resources
+- article
+- Employee Retention Guide: The Best Strategies for Retaining Top Talent
+- Learn how to invest in employee retention and keep your organization a competitive employer — now, and in the future.
+- webinar
+- Frequently Asked Questions
+- What is employee engagement software, and how does it help organizations?
+- What types of surveys can be conducted with Lattice?
+- What resources does Lattice provide to help organizations implement engagement strategies?
+- Lattice offers
+- a comprehensive library
+- How does Lattice support DEIB initiatives through engagement tools?
+- Who benefits from using Lattice’s engagement software?
+- Lattice’s engagement tools benefit HR professionals, managers, and employees by fostering open communication, increasing transparency, and improving overall workplace satisfaction​​.
+- What employee engagement solutions does Lattice offer?
+- ⭐⭐⭐⭐⭐
+- 3300+ 5-star
+- G2 reviews
+- Ensure both are successful with Lattice.
+- Take a free tour

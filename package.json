@@ -1,0 +1,24 @@
+{
+  "name": "marketing",
+  "version": "1.0.0",
+  "description": "This repository contains all marketing assets, content, and brand collateral for **Vantage Pulse** — an automated employee engagement pulse survey platform by Vantage Circle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saaahilbot/Pulse_marketing_content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saaahilbot/Pulse_marketing_content/issues"
+  },
+  "homepage": "https://github.com/saaahilbot/Pulse_marketing_content#readme",
+  "dependencies": {
+    "puppeteer": "^24.42.0"
+  }
+}
