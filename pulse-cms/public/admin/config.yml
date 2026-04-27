@@ -1,0 +1,230 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Local development: npx decap-server
+# local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: /
+logo_url: /favicon.ico
+
+collections:
+  - name: "blogs"
+    label: "Blogs"
+    label_singular: "Blog"
+    folder: "content/blogs"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    identifier_field: slug
+    summary: "{{title}} [{{status}}] SEO:{{seo_score}}"
+    sortable_fields: ["title", "seo_score", "publish_date", "category", "priority"]
+    view_filters:
+      - label: "Published"
+        field: status
+        pattern: published
+      - label: "Needs Update"
+        field: status
+        pattern: needs-update
+      - label: "High Priority"
+        field: priority
+        pattern: high
+      - label: "Featured"
+        field: featured
+        pattern: true
+    view_groups:
+      - label: "By Category"
+        field: category
+      - label: "By Status"
+        field: status
+      - label: "By Priority"
+        field: priority
+      - label: "By Funnel Stage"
+        field: funnel_stage
+
+    fields:
+      # ── Identity ──────────────────────────────────────────────────────
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The blog post title — used in H1 and meta title if meta_title is empty."
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL slug — must match the filename exactly (no spaces, all lowercase, hyphens)."
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Survey Strategy & Best Practices"
+          - "Feedback, Results & Action"
+          - "Question Banks & Templates"
+          - "Pulse Surveys & Tools"
+          - "Employee Engagement"
+          - "Retention"
+          - "Company Culture & Climate"
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: []
+        hint: "Comma-separated tags for taxonomy and search."
+
+      # ── Publishing State ───────────────────────────────────────────────
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        default: "draft"
+        options:
+          - { label: "Published", value: "published" }
+          - { label: "Draft", value: "draft" }
+          - { label: "Needs Update", value: "needs-update" }
+          - { label: "In Review", value: "review" }
+
+      - label: "Priority"
+        name: "priority"
+        widget: "select"
+        default: "medium"
+        options:
+          - { label: "High", value: "high" }
+          - { label: "Medium", value: "medium" }
+          - { label: "Low", value: "low" }
+
+      - label: "Featured"
+        name: "featured"
+        widget: "boolean"
+        default: false
+        hint: "Featured posts appear prominently on the dashboard."
+
+      # ── Source ────────────────────────────────────────────────────────
+      - label: "Source URL"
+        name: "source_url"
+        widget: "string"
+        required: false
+        hint: "Live URL on vantagecircle.com."
+
+      # ── SEO ───────────────────────────────────────────────────────────
+      - label: "Meta Title"
+        name: "meta_title"
+        widget: "string"
+        required: false
+        hint: "SEO meta title. Keep under 60 characters."
+
+      - label: "Meta Description"
+        name: "meta_description"
+        widget: "text"
+        required: false
+        hint: "SEO meta description. Target 140–160 characters."
+
+      - label: "Primary Keyword"
+        name: "primary_keyword"
+        widget: "string"
+        required: false
+        hint: "Main target keyword for this post."
+
+      - label: "Secondary Keywords"
+        name: "secondary_keywords"
+        widget: "list"
+        default: []
+        hint: "Supporting keywords (LSI, long-tail variants)."
+
+      - label: "SEO Score"
+        name: "seo_score"
+        widget: "number"
+        default: 0
+        value_type: "int"
+        min: 0
+        max: 100
+        hint: "Manual SEO health score: 75+ Strong, 65-74 Moderate, <65 Needs Work."
+
+      # ── Content Details ───────────────────────────────────────────────
+      - label: "Content Type"
+        name: "content_type"
+        widget: "select"
+        default: "educational"
+        options:
+          - { label: "Pillar", value: "pillar" }
+          - { label: "Educational", value: "educational" }
+          - { label: "How-To", value: "how-to" }
+          - { label: "Listicle", value: "listicle" }
+          - { label: "Comparison", value: "comparison" }
+          - { label: "Data-Driven", value: "data-driven" }
+          - { label: "Product Educational", value: "product-educational" }
+          - { label: "Buyer Guide", value: "buyer-guide" }
+          - { label: "Template", value: "template" }
+
+      - label: "Funnel Stage"
+        name: "funnel_stage"
+        widget: "select"
+        default: "awareness"
+        options:
+          - { label: "Awareness (ToFU)", value: "awareness" }
+          - { label: "Consideration (MoFU)", value: "consideration" }
+          - { label: "Decision (BoFU)", value: "decision" }
+
+      - label: "Word Count Estimate"
+        name: "word_count_estimate"
+        widget: "number"
+        default: 0
+        value_type: "int"
+        hint: "Estimated word count of the published article."
+
+      # ── Dates ─────────────────────────────────────────────────────────
+      - label: "Publish Date"
+        name: "publish_date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+
+      - label: "Last Updated"
+        name: "last_updated"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Vantage Circle"
+
+      # ── Conversion ────────────────────────────────────────────────────
+      - label: "Has Product Mention"
+        name: "has_product_mention"
+        widget: "boolean"
+        default: false
+        hint: "Does this post mention Vantage Pulse by name?"
+
+      - label: "Has CTA"
+        name: "has_cta"
+        widget: "boolean"
+        default: false
+        hint: "Does this post include a demo / trial / booking CTA?"
+
+      # ── Linking ───────────────────────────────────────────────────────
+      - label: "Internal Links (slugs)"
+        name: "internal_links"
+        widget: "list"
+        default: []
+        hint: "Slugs of other posts this article links to internally."
+
+      # ── Editorial ─────────────────────────────────────────────────────
+      - label: "Editorial Notes"
+        name: "notes"
+        widget: "text"
+        required: false
+        hint: "Internal notes for the content team — update priorities, CTA suggestions, etc."
+
+      # ── Body Content ─────────────────────────────────────────────────
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Full blog post content in Markdown."
